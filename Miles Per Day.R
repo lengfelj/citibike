@@ -10,4 +10,4 @@ FullDS$Date <- as.Date(FullDS$Date, "%m/%d/%y")
 a <- ggplot(FullDS, aes(x=Date, y=Miles))
 a <- a+geom_line()
 a <- a+ geom_smooth()
-a  
+a
